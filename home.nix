@@ -32,6 +32,7 @@
       pcmanfm
       file-roller
       waybar
+      gnumake
     ];
     
     pointerCursor = {
