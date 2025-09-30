@@ -33,6 +33,9 @@
       file-roller
       waybar
       gnumake
+      playerctl
+      hyprlock
+      hyprpaper
     ];
     
     pointerCursor = {

@@ -25,7 +25,7 @@
         # the path to your home.nix.
         modules = [ 
           ./home.nix
-          ./hyprland.nix
+          ./hyprland/hyprland.nix
           ./gtk.nix
           ./qt.nix
           ./git.nix
