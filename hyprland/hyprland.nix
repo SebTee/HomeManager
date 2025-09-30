@@ -23,6 +23,8 @@
         "$mod, Space, exec, $menu"
         "$mod, W, exec, $browser"
 
+        # lock screen
+        "$mod, Escape, exec, hyprlock"
 
         # close window
         "$mod, Q, killactive,"
