@@ -30,6 +30,7 @@
           ./qt.nix
           ./git.nix
           ./wofi/wofi.nix
+          ./waybar/waybar.nix
         ];
 
         # Optionally use extraSpecialArgs
