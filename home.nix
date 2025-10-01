@@ -19,7 +19,6 @@
     packages = with pkgs; [
       firefox
       vscode
-      alacritty
       gvfs
       nwg-look
       nerd-fonts.jetbrains-mono

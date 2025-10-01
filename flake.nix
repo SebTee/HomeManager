@@ -31,6 +31,7 @@
           ./git.nix
           ./wofi/wofi.nix
           ./waybar/waybar.nix
+          ./alacritty.nix
         ];
 
         # Optionally use extraSpecialArgs
