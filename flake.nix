@@ -33,6 +33,7 @@
           ./waybar/waybar.nix
           ./alacritty.nix
           ./zsh.nix
+          ./neovim/neovim.nix
         ];
 
         # Optionally use extraSpecialArgs
