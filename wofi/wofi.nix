@@ -3,8 +3,8 @@
 {
   home = {
     packages = with pkgs; [
-        wofi
-        wofi-power-menu
+      wofi
+      wofi-power-menu
     ];
 
     file = {
