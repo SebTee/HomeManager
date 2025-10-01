@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   wayland.windowManager.hyprland.enable = true;
   wayland.windowManager.hyprland.settings = {
@@ -40,6 +42,7 @@
         "$mod SHIFT, F, fullscreen,"
 
         # close hyprland
+        "$mod, X, exec, wofi-power-menu"
         "$mod SHIFT, X, exit,"
 
         # scroll workspaces
@@ -98,9 +101,16 @@
       ", XF86AudioPrev, exec, playerctl previous"
     ];
   };
-  home.file = {
-    ".config/hypr/hyprlock.conf".source = ./hyprlock.conf;
-    ".config/hypr/hyprpaper.conf".source = ./hyprpaper.conf;
-    ".config/hypr/wallpapers".source = ./wallpapers;
+  home = {
+    packages = with pkgs; [
+      hyprlock
+      hyprpaper
+    ];
+
+    file = {
+      ".config/hypr/hyprlock.conf".source = ./hyprlock.conf;
+      ".config/hypr/hyprpaper.conf".source = ./hyprpaper.conf;
+      ".config/hypr/wallpapers".source = ./wallpapers;
+    };
   };
 }

@@ -1,0 +1,2 @@
+[menu.logout]
+  cmd = "hyprctl dispatch exit"

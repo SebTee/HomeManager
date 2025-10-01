@@ -20,7 +20,6 @@
       firefox
       vscode
       alacritty
-      wofi
       gvfs
       nwg-look
       nerd-fonts.jetbrains-mono
@@ -34,8 +33,6 @@
       waybar
       gnumake
       playerctl
-      hyprlock
-      hyprpaper
     ];
     
     pointerCursor = {

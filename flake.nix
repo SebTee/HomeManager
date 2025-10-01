@@ -29,6 +29,7 @@
           ./gtk.nix
           ./qt.nix
           ./git.nix
+          ./wofi/wofi.nix
         ];
 
         # Optionally use extraSpecialArgs
