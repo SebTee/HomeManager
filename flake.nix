@@ -32,6 +32,7 @@
           ./wofi/wofi.nix
           ./waybar/waybar.nix
           ./alacritty.nix
+          ./zsh.nix
         ];
 
         # Optionally use extraSpecialArgs
