@@ -34,6 +34,7 @@
           ./alacritty.nix
           ./zsh.nix
           ./neovim/neovim.nix
+          ./haskell.nix
         ];
 
         # Optionally use extraSpecialArgs
