@@ -31,6 +31,9 @@
       file-roller
       gnumake
       playerctl
+      libgcc
+      clang
+      nodejs_24
     ];
     
     pointerCursor = {
